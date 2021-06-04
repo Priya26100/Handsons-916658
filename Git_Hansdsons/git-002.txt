@@ -1,0 +1,43 @@
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ touch file1.log
+
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ mkdir log
+
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file1.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ touch ~/.gitignore_global
+
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ git config --global core.excludesfile ~/.gitignore_global
+
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ vi ~/.gitignore_global
+
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ cat ~/.gitignore_global
+
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ cat ~/.gitignore_global
+
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ *.log
+bash: file1.log: command not found
+
+Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson(master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file1.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
