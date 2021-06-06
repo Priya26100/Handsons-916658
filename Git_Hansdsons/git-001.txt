@@ -21,9 +21,9 @@ Initialized empty Git repository in  C:/Users/DELL/Desktop/916658 -git_handson/.
 Jayapriya@DESKTOP-3ETKT0J MINGW64  ~/Desktop/916658 -git_handson (master)
 $ ls -al
 total 20
-drwxr-xr-x 1 DELL 197121  0 Apr 18 12:57 ./
-drwxr-xr-x 1 DELL 197121  0 Apr 18 12:53 ../
-drwxr-xr-x 1 DELL 197121  0 Apr 18 12:56 .git/
+drwxr-xr-x 1 DELL 197121  0 Jun 04 12:57 ./
+drwxr-xr-x 1 DELL 197121  0 Jun 04 12:53 ../
+drwxr-xr-x 1 DELL 197121  0 Jun 04 12:56 .git/
 
 
 
